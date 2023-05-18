@@ -1,0 +1,34 @@
+* {
+    color:slateblue;
+  }
+
+  h1 {
+    color: brown;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .clase1 {
+    color: black;
+  }
+
+  #idtitulogrande {
+    color: green;
+  }
+  a[href] {
+    color: brown;
+  }
+  a[href*=".ec"] {
+    color: gold;
+  }
+  label:hover{
+    color: indigo;
+    background-color: yellow;
+    font-size: 57px;
+  }
+  a:hover {
+    color: black;
+    font-size: 57px;
+  }
