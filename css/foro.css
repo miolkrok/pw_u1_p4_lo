@@ -1,0 +1,53 @@
+.menu li {
+    list-style: none;
+    display: inline-block;
+    border: 2px outset blueviolet;
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 10px;
+    text-align: justify;
+
+}
+.cabecera h1 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: darkblue;
+
+}
+
+.menu {
+    background-color: bisque;
+    text-align: left;
+}
+header, section, footer, aside, nav, article {
+    display: block;
+}
+/*
+h1, h2, h3 {
+    color: mediumslateblue;
+}*/
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.formulario {
+    width: fit-content;
+    border: 1px double blueviolet;
+    margin: 15px auto;
+
+}
+
+.seccion {
+    margin:  20px;
+    width: 600px;
+    float: left;
+}
+
+article {
+    border: 1px solid blueviolet;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: bisque;
+}
