@@ -34,7 +34,7 @@ body{
 }
 .formulario {
     width: fit-content;
-    border: 1px double blueviolet;
+    border: 2px double blueviolet;
     margin: 15px auto;
 
 }
@@ -46,8 +46,35 @@ body{
 }
 
 article {
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
     padding: 20px;
     margin-bottom: 25px;
     background-color: bisque;
+}
+.referencias {
+    border: 2px solid blueviolet;
+    border-style: dotted;
+    background-color: bisque;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*.clasePieArticulo {
+
+}*/
+
+article footer {
+    text-align: right;
+    color: blueviolet;
+}
+
+.pie {
+    clear: both;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
 }
