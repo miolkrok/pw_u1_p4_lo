@@ -5,33 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculando</title>
-    <script>
-        function sumar(num1, num2) {
-            return num1+num2;
-        }
-        
-        function sumarNumeros(){
-            var numero1= parseInt(document.getElementById('idNum1').value);
-            var numero2=parseInt(document.getElementById('idNum2').value);
-            document.getElementById('labelResultado').innerHTML='Resultado: '+sumar(numero1,numero2);
-        }
-
-        function convertir(idCampo){
-            parse = parseInt(document.getElementById(idCampo).value)
-            return parse;
-        }
-
-        function restar(){
-            document.getElementById('labelResultado').innerHTML = 'Resultado: ' + (convertir('idNum1')-convertir('idNum2'));
-        }
-
-        function multiplicar(){
-            document.getElementById('labelResultado').innerHTML = 'Resultado: ' + (convertir('idNum1')*convertir('idNum2'));
-        }
-
-        function dividir(){
-            document.getElementById('labelResultado').innerHTML = 'Resultado: ' + (convertir('idNum1')/convertir('idNum2'));
-        }
+    <script src="../js/calculadora.js">
+       
     </script>
 </head>
 <body>
@@ -46,13 +21,17 @@
         <button onclick="document.getElementById('labelResultado').style.backgroundColor='red'">js Online 1</button>
         <button onclick="document.getElementById('labelResultado').style.color='blue'">js Online 2</button>
         
-
         <button onclick="sumarNumeros()">Sumar</button>
         <button onclick="restar()">Restar</button>
         <button onclick="multiplicar()">Multiplicar</button>
         <button onclick="dividir()" >Dividir</button>
 
+        <button onclick="insertarElemento()">Insertar elemento</button>
+        <button onclick="eliminarElemento()" >eliminar elemento</button>
+
         <label id="labelResultado" for="">Resultado: </label>
+        <label id="idEliminar" for="">Eliminar</label>
+        <div id="elemento"></div>
     </section>
     <footer></footer>
 </body>
