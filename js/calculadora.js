@@ -26,7 +26,7 @@ function dividir(){
 }
 
 function eliminarElemento() {
-    document.getElementById('idEliminar').remove;
+    document.getElementById('idEliminar').remove();
 }
 
 function insertarElemento(){

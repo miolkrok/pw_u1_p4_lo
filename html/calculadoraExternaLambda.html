@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando</title>
+    <script src="../js/calculadoraLambda.js">
+       
+    </script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <section>
+        <label for="idNum1"> Numero 1</label>
+        <input id="idNum1" type="number">
+        <label for="idNum2"> Numero 2</label>
+        <input id="idNum2" type="number">
+
+        <button onclick="document.getElementById('labelResultado').style.backgroundColor='red'">js Online 1</button>
+        <button onclick="document.getElementById('labelResultado').style.color='blue'">js Online 2</button>
+        
+        <button onclick="sumarNumeros()">Sumar</button>
+        <button onclick="restar()">Restar</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+        <button onclick="dividir()" >Dividir</button>
+
+        <button onclick="insertarElemento()">Insertar elemento</button>
+        <button onclick="eliminarElemento()" >eliminar elemento</button>
+        <button onclick="conceptosJS()">Conceptos js</button>
+
+        <label id="labelResultado" for="">Resultado: </label>
+        <label id="idEliminar" for="">Eliminar</label>
+        <div id="elemento"></div>
+    </section>
+    <footer></footer>
+</body>
+</html>
