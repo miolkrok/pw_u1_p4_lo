@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando</title>
+    <link href="../css/calculadoraDeber.css" rel="stylesheet" />
+    <script src="../js/calculadoraDeber.js" type="text/javascript"></script>
+
+<body class="body">
+    <section class="seccion">
+        <p>Calculador Web</p>
+        <div class="calculadora">
+            <input type="text" id="resultado" disabled>
+            <div class="botones">
+                <button onclick="numero('7')">7</button>
+                <button onclick="numero('8')">8</button>
+                <button onclick="numero('9')">9</button>
+                <button onclick="operador('+')">+</button>
+                <button onclick="numero('4')">4</button>
+                <button onclick="numero('5')">5</button>
+                <button onclick="numero('6')">6</button>
+                <button onclick="operador('-')">-</button>
+                <button onclick="numero('1')">1</button>
+                <button onclick="numero('2')">2</button>
+                <button onclick="numero('3')">3</button>
+                <button onclick="operador('*')">*</button>
+                <button onclick="numero('0')">0</button>
+                <button onclick="limpiarResultado()">C</button>
+                <button onclick="operador('/')">/</button>
+                <button onclick="calcular()">=</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
