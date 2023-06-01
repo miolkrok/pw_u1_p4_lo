@@ -8,13 +8,16 @@
     <title>Calculando</title>
     <link href="../css/calculadoraDeber.css" rel="stylesheet" />
     <script src="../js/calculadoraDeber.js" type="text/javascript"></script>
+</head>
 
 <body class="body">
     <section class="seccion">
         <p>Calculador Web</p>
-        <div class="calculadora">
-            <input type="text" id="resultado" disabled>
-            <div class="botones">
+        <div class="container">
+
+            <div class="calculadora">
+                <input class="display" type="text" id="resultado" disabled>
+                <button class="c" onclick="limpiarResultado()">C</button>
                 <button onclick="numero('7')">7</button>
                 <button onclick="numero('8')">8</button>
                 <button onclick="numero('9')">9</button>
@@ -26,12 +29,12 @@
                 <button onclick="numero('1')">1</button>
                 <button onclick="numero('2')">2</button>
                 <button onclick="numero('3')">3</button>
-                <button onclick="operador('*')">*</button>
-                <button onclick="numero('0')">0</button>
-                <button onclick="limpiarResultado()">C</button>
                 <button onclick="operador('/')">/</button>
+                <button class="botonCero" onclick="numero('0')">0</button>
                 <button onclick="calcular()">=</button>
+                <button onclick="operador('*')">*</button>
             </div>
+
         </div>
     </section>
 </body>
